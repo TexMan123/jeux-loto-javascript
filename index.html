@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Loto</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ml-auto mr-auto">
+                
+                    <h1 class="text-center tirage" id="tirageTitre">Tirage</h1>
+
+                    <div id="compt">
+                        <h6>Nombre de chiffre tiré</h6>
+                        <input type="text" name="compteur" id="compteur" class="form form-control" disabled="disabled" placeholder="0"/>
+                    </div>
+
+                    <div id="fondTirage">
+                        <input type="text" name="ipTirage" id="ipTirage" class="form form-control" disabled="disabled"/> 
+                    </div>
+
+                    <div id="precedent"> 
+                    <input type="text" name="prec" id="prec" class="form form-control" disabled="disabled"/> 
+                    </div>
+
+                    <div id="DivBtnJouer">
+                        <button class="btn btn-success Jouer" id ="joue" value="jouer" onclick="jeu('jouer','');">Jouer</button>
+                    </div>
+                    
+                    <button class="btn btn-primary Play" id="lancement" onclick="jeu('lancement','');">Lancer</button>
+                    <h6 id="choisir">Choisir 5 chiffre au choix!</h6>
+                    <div id="carte">
+                        <button class="btn btn-outline-warning chiffre" value="1"  onclick="jeu('chiffre' ,  '1');">1 </button>
+                        <button class="btn btn-outline-warning chiffre" value="2"  onclick="jeu('chiffre' , '2');">2 </button>
+                        <button class="btn btn-outline-warning chiffre" value="3"  onclick="jeu('chiffre' , '3');">3 </button>
+                        <button class="btn btn-outline-warning chiffre" value="4"  onclick="jeu('chiffre' , '4');">4 </button>
+                        <button class="btn btn-outline-warning chiffre" value="5"  onclick="jeu('chiffre' , '5');">5 </button>
+                        <button class="btn btn-outline-warning chiffre" value="6"  onclick="jeu('chiffre' , '6');">6 </button>
+                        <button class="btn btn-outline-warning chiffre" value="7"  onclick="jeu('chiffre' , '7');">7 </button>
+                        <button class="btn btn-outline-warning chiffre" value="8"  onclick="jeu('chiffre' , '8');">8 </button>
+                        <button class="btn btn-outline-warning chiffre" value="9"  onclick="jeu('chiffre' , '9');">9 </button>
+                        <button class="btn btn-outline-warning chiffre" value="10" onclick="jeu('chiffre' , '10');">10</button>
+                        <button class="btn btn-outline-warning chiffre" value="11" onclick="jeu('chiffre' , '11');">11</button>
+                        <button class="btn btn-outline-warning chiffre" value="12" onclick="jeu('chiffre' , '12');">12</button>
+                        <button class="btn btn-outline-warning chiffre" value="13" onclick="jeu('chiffre' , '13');">13</button>
+                        <button class="btn btn-outline-warning chiffre" value="14" onclick="jeu('chiffre' , '14');">14</button>
+                        <button class="btn btn-outline-warning chiffre" value="15" onclick="jeu('chiffre' , '15');">15</button>
+                        <button class="btn btn-outline-warning chiffre" value="16" onclick="jeu('chiffre' , '16');">16</button>
+                        <button class="btn btn-outline-warning chiffre" value="17" onclick="jeu('chiffre' , '17');">17</button>
+                        <button class="btn btn-outline-warning chiffre" value="18" onclick="jeu('chiffre' , '18');">18</button>
+                        <button class="btn btn-outline-warning chiffre" value="19" onclick="jeu('chiffre' , '19');">19</button>
+                        <button class="btn btn-outline-warning chiffre" value="20" onclick="jeu('chiffre' , '20');">20</button>
+                        <button class="btn btn-outline-warning chiffre" value="21" onclick="jeu('chiffre' , '21');">21</button>
+                        <button class="btn btn-outline-warning chiffre" value="22" onclick="jeu('chiffre' , '22');">22</button>
+                        <button class="btn btn-outline-warning chiffre" value="23" onclick="jeu('chiffre' , '23');">23</button>
+                        <button class="btn btn-outline-warning chiffre" value="24" onclick="jeu('chiffre' , '24');">24</button>
+                        <button class="btn btn-outline-warning chiffre" value="25" onclick="jeu('chiffre' , '25');">25</button>
+                        <button class="btn btn-outline-warning chiffre" value="26" onclick="jeu('chiffre' , '26');">26</button>
+                        <button class="btn btn-outline-warning chiffre" value="27" onclick="jeu('chiffre' , '27');">27</button>
+                        <button class="btn btn-outline-warning chiffre" value="28" onclick="jeu('chiffre' , '28');">28</button>
+                        <button class="btn btn-outline-warning chiffre" value="29" onclick="jeu('chiffre' , '29');">29</button>
+                        <button class="btn btn-outline-warning chiffre" value="30" onclick="jeu('chiffre' , '30');">30</button>
+                        <button class="btn btn-outline-warning chiffre" value="31" onclick="jeu('chiffre' , '31');">31</button>
+                        <button class="btn btn-outline-warning chiffre" value="32" onclick="jeu('chiffre' , '32');">32</button>
+                        <button class="btn btn-outline-warning chiffre" value="33" onclick="jeu('chiffre' , '33');">33</button>
+                        <button class="btn btn-outline-warning chiffre" value="34" onclick="jeu('chiffre' , '34');">34</button>
+                        <button class="btn btn-outline-warning chiffre" value="35" onclick="jeu('chiffre' , '35');">35</button>
+                        <button class="btn btn-outline-warning chiffre" value="36" onclick="jeu('chiffre' , '36');">36</button>
+                        <button class="btn btn-outline-warning chiffre" value="37" onclick="jeu('chiffre' , '37');">37</button>
+                        <button class="btn btn-outline-warning chiffre" value="38" onclick="jeu('chiffre' , '38');">38</button>
+                        <button class="btn btn-outline-warning chiffre" value="39" onclick="jeu('chiffre' , '39');">39</button>
+                        <button class="btn btn-outline-warning chiffre" value="40" onclick="jeu('chiffre' , '40');">40</button>
+
+                    </div>
+                    <div id="DivBtnReJouer">
+                        <button class="btn btn-success" id ="rejoue" value="rejouer" onclick="jeu('rejouer','');">Rejouer</button>
+                    </div>
+               
+            </div>
+        </div>
+    </div>
+   
+
+
+
+
+
+
+<script type="text/javascript" src="js/jquery.3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

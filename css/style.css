@@ -1,0 +1,127 @@
+body {
+	background-color: #4e079d;
+}
+.tirage {
+	font-weight:bold;
+	color:yellow;
+	margin-top:50px;
+}
+#compt {
+	width:100px;
+	height:130px;
+	text-align:center;
+	color:white;
+	background-color: #0097ff;
+	position:absolute;
+	right:40px;
+	top:60px;
+	border:none;
+}
+#compteur {
+	width:70px;
+	height:70px;
+	margin-left:15px;
+	background-color: #00b2ff;
+	border:none;
+	color:yellow;
+	font-weight:bold;
+	text-align: center;
+	font-size: 40px;
+	box-shadow: 0px 5px 5px 0px;
+}
+#ipTirage {
+	width:115px;
+	height:100px;
+	margin-left: auto;
+	margin-right:auto;
+	background-color:yellow;
+	border:none;
+	font-weight:bold;
+	text-align: center;
+	font-size:70px;
+}
+#fondTirage {
+	background-color: yellow;
+	width:170px;
+	height:170px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:50px;
+	padding-top: 25px;
+	border-radius:100px;
+}
+#precedent {
+	width:500px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#prec {
+	font-size:20px;
+	color:#f5cd03;
+	margin-left:0px;
+	width:470px;
+	background-color: #4e079d;
+	
+	border-radius: 0px;
+	border:5px solid yellow;
+}
+.Jouer {
+	width:100px;
+	height:50px;
+	border-radius:0px;
+	margin-top:20px;
+}
+#DivBtnJouer {
+	width:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.Play {
+	width:100px;
+	height:50px;
+	border-radius:0px;
+	float:left;
+}
+
+#carte {
+	float:left;
+	border:1px solid #f5cd03;
+	padding:10px;
+	margin-top:20px;
+	width:512px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.chiffre {
+	width:45px;
+	margin-top:5px;
+}
+#choisir {
+	float:left;
+	margin-left:50px;
+	margin-top:20px;
+	color:#f5cd03;
+}
+#rejoue {
+	margin-top:20px;
+	width:100px;
+	height:50px;
+	border-radius:0px;
+}
+
+#DivBtnReJouer {
+	width:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#centrer {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
